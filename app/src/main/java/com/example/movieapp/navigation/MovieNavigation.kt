@@ -22,6 +22,8 @@ fun MovieNavigation(){
         })){
             backStackEntry->
            DetailsScreen(navController = navController,backStackEntry.arguments?.getString("movie"))
+
+
         }
     }
 }

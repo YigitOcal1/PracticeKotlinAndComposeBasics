@@ -31,15 +31,12 @@ fun DetailsScreen(navController: NavController, movieData: String?){
             .fillMaxWidth()
             .fillMaxHeight()) {
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
-                Text(text = movieData.toString(),
-                    style = MaterialTheme.typography.h4)
+                Text(text = movieData.toString(), style = MaterialTheme.typography.h4)
 
             }
 
         }
     }
-
-
 
 
 
